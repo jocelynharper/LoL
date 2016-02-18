@@ -1,0 +1,8 @@
+<ion-view view-title="Champion Spotlight">
+  <ion-content class="padding">
+  <div ng-repeat="champ in champs">
+		<img ng-src="http://ddragon.leagueoflegends.com/cdn/6.3.1/img/champion/{{champ.image.full}}"/>
+		<p>{{champ.lore}}</p>
+	</div>
+  </ion-content>
+</ion-view>

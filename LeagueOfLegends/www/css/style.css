@@ -1,0 +1,40 @@
+/* Empty. Add your own CSS if you like */
+h2{
+	font-family: Verdana;
+	font-weight: bold;
+	font-color: #10787F;
+    text-align: center;
+}
+p{
+	text-align: justify;
+	font-family: arial;
+	font-weight: normal;
+	font-color: #717594;
+}
+div{
+	margin: 0 auto;
+}
+form {
+	width: 500px;
+	margin: 50px auto;
+	vertical-align: middle;
+}
+input[type="text"]{
+	width: 300px;
+	text-align: center;
+	border: 1px solid #000000;
+	font-family: Arial;
+	font-weight: normal;
+	padding: 2px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+input[type="button"]{
+	width: 100px;
+	padding: 2px;
+	font-family: Arial;
+	font-weight: bold;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+
+}
